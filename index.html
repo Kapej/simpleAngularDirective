@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<meta charset="UTF-8">
+<body>
+
+<div ng-app="myApp">
+
+  <div ng-controller="mainCtrl">
+    <p my-test="name" test="przyklad"></p>
+  </div>
+
+  <div ng-controller="secondCtrl">
+    <p my-test="name" test="przyklad"></p>
+  </div>
+
+</div>
+
+<!-- skrypty -->
+<!-- moduł -->
+<script src="angular/modul.js"></script>
+<!-- dyrektywy -->
+<script src="angular/directives/test.js"></script>
+<!-- kontrolery -->
+<script src="angular/controllers/mainCtrl.js"></script>
+<script src="angular/controllers/secondCtrl.js"></script>
+</body>
+</html>
